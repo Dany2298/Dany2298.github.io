@@ -1,2 +1,3 @@
 # E-commerce-Website
-A cool website.
+Please check other branch to view files.
+Thank you :)
