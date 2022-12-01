@@ -53,7 +53,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10px;
+    padding: 5px 10px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
     z-index: 999;
@@ -73,7 +73,7 @@ body{
 
 #navbar li{
     list-style: none;
-    padding: 0 20px;
+    padding: 0 24px;
     position: relative;
 }
 
@@ -104,7 +104,7 @@ color: #088178;
 }
 
 #hero{
-    background-image: url("../img/shopping4.jpg");
+    background-image: url("../img/shopping6.png");
     height: 90vh;
     width: 100%;
     background-position: top 75% right 20%;
@@ -135,6 +135,17 @@ color: #088178;
    background-repeat: no-repeat;
    cursor: pointer;
    font-weight: 700;
-   font-size: 15px;
+   font-size: 24px;
 
 }
+
+  .slider {
+      width: 500px;
+      height: 300px;
+      background-color: yellow;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      text-align: center;
+      overflow: hidden;
+  }
