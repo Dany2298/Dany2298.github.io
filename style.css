@@ -100,7 +100,7 @@ color: #088178;
     background: #088178;
     position: absolute;
     bottom: -4px;
-    left: 20px;
+    left: 25px;
 }
 
 #hero{
@@ -139,13 +139,29 @@ color: #088178;
 
 }
 
-  .slider {
-      width: 500px;
-      height: 300px;
-      background-color: yellow;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0px;
-      text-align: center;
-      overflow: hidden;
-  }
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+        box-shadow: 10px 10px 44px rgba(15, 14, 29, 0.1);
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color:#f5edef ;
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
