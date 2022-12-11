@@ -128,15 +128,14 @@ color: #088178;
 }
 
 #hero button{
-   background-color: transparent;
+   border-color: #1a1a1a;
    color: #088178;
-   border:0;
-   padding: 14px 80px 14px 65px;
+   padding: 14px 15px 5px 15px;
    background-repeat: no-repeat;
    cursor: pointer;
    font-weight: 700;
    font-size: 24px;
-
+   border-radius: 15px;
 }
 
 #feature{
@@ -204,9 +203,37 @@ color: #088178;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0,2s ease;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
 #product1 .pro img{
     width: 100%;
     border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color: #088078;
+    font-size: 12.5px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+
+}
+
+#product1 .pro .des i{
+    font-size: 12px ;
+    color: rgb(241, 181, 25);
 }
