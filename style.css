@@ -128,7 +128,7 @@ color: #088178;
 }
 
 #hero button{
-   border-color: #1a1a1a;
+   border-color: #2d837d;
    color: #088178;
    padding: 14px 15px 5px 15px;
    background-repeat: no-repeat;
@@ -264,5 +264,9 @@ color: #088178;
     border: 1px solid #cdd4f8;
     position: absolute;
     bottom: 20px;
-    right: 10px;
+    right: 15px;
+}
+#product1 .pro .cart i{
+    color: #088078;
+   
 }
