@@ -58,6 +58,8 @@ button.normal{
     transition: 0.2s;
 }
 
+
+
 body{
     width: 100%;
 }
@@ -149,6 +151,11 @@ color: #088178;
    font-weight: 700;
    font-size: 24px;
    border-radius: 15px;
+}
+
+#hero button:hover{
+    background-color: #088078;
+    color: #fff;
 }
 
 #feature{
@@ -308,4 +315,9 @@ color: #088178;
 
 #banner h2 span{
     color:rgb(219, 59, 59);
+}
+
+#banner button:hover{
+    background-color: #088078;
+    color: #fff;
 }
