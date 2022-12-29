@@ -379,7 +379,59 @@ color: #088178;
 
 #sm-banner .banner-box:hover button{
     background-color: #088078;
-    border: 1px solid #088078;
+    border: 1px solid #13a39a;
 }
 
 
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../img/bg9.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+#banner3 .banner-box2{
+background-image: url(../img/bg8.jpg);
+}
+
+#banner3 .banner-box3 {
+    background-image: url(../img/bg7.jpg);
+    padding-left: 70px;
+}
+
+#banner3 h2{
+    color: black;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #088078;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(../img/bn1.jpg);
+
+}
