@@ -474,6 +474,7 @@ background-image: url(../img/bg8.jpg);
     outline: none;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    box-shadow: 20px 20px 34px rgb(112, 140, 158);
 
 }
 
@@ -483,4 +484,8 @@ background-image: url(../img/bg8.jpg);
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+#newsletter button:hover{
+    background-color: #085c56;
 }
