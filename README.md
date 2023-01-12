@@ -1,4 +1,5 @@
 An E-commerce-Website called Elegance which promotes Winter Clothing.
+
 An interactive website utilizing best practices such as, responsive design, reusable components and technologies.
 
 
