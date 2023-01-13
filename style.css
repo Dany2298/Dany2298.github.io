@@ -799,3 +799,8 @@ footer .copyright{
             font-weight: 600;
         }
 
+        #pagination a:hover {
+            background-color: #085c56;
+        }
+    
+
