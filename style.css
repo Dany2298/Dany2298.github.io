@@ -807,6 +807,7 @@ footer .copyright{
 #prodetails{
     display: flex;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 #prodetails .single-pro-details{
@@ -816,6 +817,10 @@ footer .copyright{
 
 #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details SPAN{
+    color: #088078;
 }
 
 #prodetails .single-pro-details h2 {
