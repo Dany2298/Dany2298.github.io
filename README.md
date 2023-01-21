@@ -10,3 +10,6 @@ An interactive website utilizing best practices such as, responsive design, reus
 
 
 ![elegance2](https://user-images.githubusercontent.com/61568687/208304022-87fc3659-af35-49ed-96dc-d60d5d53f37c.PNG)
+
+
+![elegancesingleproduct](https://user-images.githubusercontent.com/61568687/213894274-cff6970f-ba2e-4ce4-a4df-420e10c8decf.PNG)
