@@ -111,6 +111,7 @@ body{
     list-style: none;
     padding: 0 24px;
     position: relative;
+    text-align: center;
 }
 
 #navbar li a{
@@ -136,8 +137,10 @@ color: #088178;
     background: #088178;
     position: absolute;
     bottom: -4px;
-    left: 25px;
+    left: 25.5px;
+   
 }
+
 
 #hero{
     background-image: url("../img/shopping6.png");
@@ -687,14 +690,12 @@ footer .copyright{
         }
 
         .small-img-col img {
-            margin-top: 50px;
+            margin-top: 20px;
             max-width: 85px;
             max-height: 95px;
         }
 
-        #prodetails .single-pro-details span {
-            
-        }
+       
 
         @media (max-width:477px) {
         
@@ -782,7 +783,7 @@ footer .copyright{
         }
 
         #prodetails .single-pro-details {
-            width: 100%;
+            width: 100% !important;
             margin-right: 50px;
         }
 
@@ -802,6 +803,7 @@ footer .copyright{
         #prodetails .single-pro-details input {
             margin-bottom: 8px;
         }
+        
                 }
     }
 
