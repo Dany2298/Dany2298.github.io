@@ -1016,5 +1016,27 @@ footer .copyright{
     text-align: center;
 }
 
+#page-header3{
+background-image: url("../img/bg6.jpg");
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    padding-bottom: 135px;
+    padding-left: 75px;
+}
+
+#page-header3 h2 span{
+    color: #088078;
+}
+
+#page-header3 p{
+    color: #1a1a1a;
+}
+
 
 
