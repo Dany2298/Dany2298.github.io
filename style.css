@@ -996,5 +996,25 @@ footer .copyright{
 }
 
 
+/* Contact Section */
+
+#map .map-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+#map span{
+    color: #088078;
+}
+
+#map .textdesc{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 
 
