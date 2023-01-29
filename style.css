@@ -98,6 +98,14 @@ body{
     
 }
 
+.logo{
+    transition: .3s ease-in;
+}
+
+.logo:hover{
+    transform: translateY(5px);
+}
+
 #mobile{
     display: none;
     align-items: center;
@@ -119,7 +127,7 @@ text-decoration: none;
 font-size: 16px;
 font-weight:600;
 color: #1a1a1a;
-transition: 0.3s ease;
+transition: all 0.3s ease;
 
 }
 
@@ -174,12 +182,14 @@ color: #088178;
    cursor: pointer;
    font-weight: 700;
    font-size: 24px;
-   border-radius: 15px;
+   border-radius: 8px;
+   transition: .3s ease-in-out;
 }
 
 #hero button:hover{
     background-color: #088078;
     color: #fff;
+    transform: translateX(15px);
 }
 
 #feature{
@@ -1019,14 +1029,14 @@ footer .copyright{
 #page-header3{
 background-image: url("../img/bg6.jpg");
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     background-size: cover;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     padding: 14px;
-    padding-bottom: 135px;
+    
     padding-left: 75px;
 }
 
@@ -1036,6 +1046,22 @@ background-image: url("../img/bg6.jpg");
 
 #page-header3 p{
     color: #1a1a1a;
+}
+
+#MainImg{
+transition: .3s ease-in-out;
+}
+
+#MainImg:hover{
+    transform: translateY(-15px);
+}
+
+.small-img{
+    transition: .3s ease-in
+}
+
+.small-img:hover{
+    transform: translateY(-10px);
 }
 
 
