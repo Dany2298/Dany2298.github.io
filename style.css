@@ -8,10 +8,10 @@ to{
 }
 } 
 
-.jacket-heading{
-
-    animation: slideInLeft 1s ease-in;
+.slideInLeft{
+animation: slideInLeft 1s ease-in;
 }
+
 
 *{
     font-family: 'League Spartan', sans-serif;
